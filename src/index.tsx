@@ -1,13 +1,5 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import Hello from './components/Hello'
+import {Calculator} from "./components/Calculator"
 
-const App = () => {
-    return (
-        <div>
-            <p>Hello world!!!!</p>
-        </div>
-    );
-}
-
-ReactDOM.render(<Hello name="TypeScript" enthusiasmLevel={5}/>, document.getElementById("app"))
+ReactDOM.render(<Calculator temperature={15} />, document.getElementById("app"))

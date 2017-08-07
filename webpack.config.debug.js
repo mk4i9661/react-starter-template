@@ -3,7 +3,7 @@ const path = require('path')
 
 module.exports = {
   // put sourcemaps inline
-  devtool: 'eval',
+  devtool: 'source-map',
 
   // entry point of our application, within the `src` directory (which we add to resolve.modules below):
   entry: [
